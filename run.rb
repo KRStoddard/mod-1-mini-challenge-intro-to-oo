@@ -16,5 +16,9 @@ require_relative "./models/clown"
 # krusty.fears
 # => "Failure"
 
+clown1 = Clown.new("Scary", 33, "Juggling", "Kids")
+clown2 = Clown.new("Terrifying", 55, "Balloons")
+clown3 = Clown.new("HateThem", 44, "Whatever")
+
 binding.pry
 "pls"
